@@ -50,7 +50,7 @@ frappe-setup/
 ## Usage
 
 ```bash
-git clone https://github.com/<your-username>/frappe-setup-wizard.git
+git clone https://github.com/Prathyusha1981/Frappe-Setup-Wizard.git
 cd frappe-setup-wizard
 chmod +x install.sh scripts/*.sh
 ./install.sh
@@ -92,14 +92,6 @@ Apps: erpnext hrms payments https://github.com/my-org/custom_app.git
 ## Logs
 
 Every run writes to `logs/YYYY-MM-DD-install.log` so failures are easy to debug.
-
-## Roadmap
-
-- [ ] Docker mode
-- [ ] Production setup (`bench setup production`) with Nginx + SSL
-- [ ] Automated backups / restore from SQL dump
-- [ ] Interactive TUI using `gum` or `dialog`
-- [ ] Frappe Cloud compatibility checks
 
 ## Contributing
 
