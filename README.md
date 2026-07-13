@@ -99,4 +99,4 @@ Issues and PRs welcome. If you build a Frappe/ERPNext dev environment often, thi
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](frappe-setup/LICENSE).
