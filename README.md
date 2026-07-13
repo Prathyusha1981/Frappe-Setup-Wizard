@@ -50,7 +50,7 @@ frappe-setup/
 ## Usage
 
 ```bash
-git clone https://github.com/Prathyusha1981/Frappe-Setup-Wizard.git
+git clone https://github.com/<your-username>/frappe-setup-wizard.git
 cd frappe-setup-wizard
 chmod +x install.sh scripts/*.sh
 ./install.sh
@@ -93,10 +93,18 @@ Apps: erpnext hrms payments https://github.com/my-org/custom_app.git
 
 Every run writes to `logs/YYYY-MM-DD-install.log` so failures are easy to debug.
 
+## Roadmap
+
+- [ ] Docker mode
+- [ ] Production setup (`bench setup production`) with Nginx + SSL
+- [ ] Automated backups / restore from SQL dump
+- [ ] Interactive TUI using `gum` or `dialog`
+- [ ] Frappe Cloud compatibility checks
+
 ## Contributing
 
 Issues and PRs welcome. If you build a Frappe/ERPNext dev environment often, this is meant to save you the repetitive setup steps.
 
 ## License
 
-MIT — see [LICENSE](frappe-setup/LICENSE).
+MIT — see [LICENSE](LICENSE).
